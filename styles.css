@@ -1,0 +1,93 @@
+body{
+    background-color: #1181b2;
+    font-family: "Ubuntu", sans-serif;;
+}
+
+header {
+    background-color: aliceblue;
+    margin: 0 auto;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 300px;
+    max-height: 100%;
+}
+
+.headerMenu {
+    margin: auto;
+}
+
+.menu-item a {
+    color: #01315e;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 15px;
+}
+
+.menu-item a:hover {
+    border-bottom: 2px solid #1181b2 ;
+    transition: 0.1s;
+    padding-bottom: 10px;
+}
+.menu-item li {
+    display: inline-flex;
+    padding: 15px 15px;
+    font-size: 20px;
+}
+
+.menu, .menu-item {
+    display: inline-block;
+}
+
+/* Se mudar para 33.33333333% PODE DAR MERDA*/
+.col-4 {
+    width: 31%;
+}
+
+.container h1 {
+    padding-top: 70px;
+    padding-bottom: 25px;
+}
+
+.servicostest {
+    background-color: #fefefe;
+    padding: 0;
+    margin: 8px;
+}
+
+.servicostest p {
+    text-align: start;
+}
+
+/* alinha os cards servicos hospitalares para nao quebrar nas telas */
+.servicosJojo {
+    text-align: center;
+    justify-content: space-between;
+}
+
+.servicosDetalhes {
+    padding: 2vh;
+    font-size: 18px;
+    align-items: center;
+}
+
+
+.servicosDetalhes h2 {
+    font-weight: 500;
+    font-size: 36px;
+    color: #1181b2 !important;
+    margin-bottom: 2vh;
+}
+
+.servicos {
+    background-color: rgb(238, 238, 238);
+}
+
+.imagemServicos {
+    width: 100%;
+    min-height: 270px !important;
+    max-height: 270px !important;
+}
