@@ -91,3 +91,67 @@ header {
     min-height: 270px !important;
     max-height: 270px !important;
 }
+
+.sobre-nos {
+    background-color: #2e83c9;
+    height: 790px;
+}
+.sobre-nos h1 {
+    text-align: center;
+    color: #ecfcff;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sobre-nos-body {
+    align-items: center;
+}
+
+.sobre-nos-body img {
+    width: 500px;
+}
+
+.sobre-nos-texto p {
+    padding-left: 30px;
+    color: #ecfcff;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.nossa-equipe {
+    background-color: #fefefe;
+    height: 1200px;
+
+}
+
+.nossa-equipe h1 {
+    color: rgb(6, 6, 139);
+}
+
+.nossa-equipe p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nossa-equipe-body {
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.nossa-equipe-med img {
+    height: 300px;
+
+    border-radius: 20px;
+}
+
+.nossa-equipe-med {
+    justify-content: center;
+    text-align: center;
+    border: 2px solid #1181b2;
+    border-radius: 40px;
+    padding: 30px;
+}
+
+.nossa-equipe-med h3 {
+    margin-top: 20px;
+}
