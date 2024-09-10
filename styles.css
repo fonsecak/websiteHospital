@@ -169,3 +169,75 @@ header {
     color: #1181b2 !important;
     margin: 20px;
 }
+
+/* footer */
+#contact-area{
+    text-align: center;
+   
+}
+
+.titulo-footer{    
+    border-bottom: 1px solid #ecfcff;
+    color: #ecfcff;
+    
+}
+
+
+
+.contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #ecfcff;
+}
+
+
+.contact-box i {
+    color: #ecfcff;
+    border: solid 1px #ecfcff;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    
+}
+
+.contact-box p {
+    font-size: 20px;
+    
+}
+
+.contact-title {
+    font-weight: bold;
+    color: #212221;
+
+}
+
+#msg-box p{
+    font-size: 22px;
+}
+
+#contact-form input[type="nome"], #contact-form input[type="email"], #contact-form input[type="mensagem"]{
+    margin-bottom: 15px;
+    border-radius: 0;
+}  
+
+#contact-form .main-btn{
+    margin-top: 10px;
+    width: 120px;
+    height: 50px;
+    border-radius: 40%;
+    background-color: #212221;
+    border-color: #ecfcff;
+    color: #ecfcff;
+}
+
+
+#contact-form .main-btn:hover{
+    color: #1181b2;
+    background-color: white;
+    border-color: #212221;
+}
+
