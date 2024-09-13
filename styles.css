@@ -181,10 +181,16 @@ header {
     color: #ecfcff;
     font-size: 40px;
     padding-bottom: 15px;
+    margin-top: 15px;
         
 }
 
-
+#msg-box a{
+    font-size: 50px;
+    padding: 20px;
+    margin-top: 45px;
+    text-decoration: none;
+}
 
 
 .contact-box {
@@ -223,19 +229,15 @@ header {
     color: #ecfcff;
 }
 
-textarea::placeholder {
-    font-size: 18px;
-    
-}
 
-input::placeholder {
+#contact-form input::placeholder, #contact-form textarea::placeholder {
     color: #ecfcff;
     font-size: 18px;
     
     
 }
 
-#contact-form input[type="nome"], #contact-form input[type="email"], #contact-form input[type="mensagem"]{
+#contact-form input[type="nome"], #contact-form input[type="email"], #contact-form textarea[type="mensagem"]{
     margin-bottom: 13px;
     border-radius: 5;
     border: 1px solid #ecfcff;
